@@ -5,7 +5,7 @@ import Contato from './pages/Contato'
 import Sobre from './pages/Sobre'
 // router
 import {Link, Routes, Route} from 'react-router'
-
+function App(){
   return (
     <div>
       <h1>MEU SITE FAVORITO EM REACT (O PRIMEIRO)</h1>
@@ -21,6 +21,6 @@ import {Link, Routes, Route} from 'react-router'
       </Routes>
     </div>
   )
-
+}
 
 export default App
